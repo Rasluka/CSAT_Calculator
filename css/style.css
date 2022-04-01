@@ -1,0 +1,124 @@
+body {
+    text-align: center;
+    background-color: #323232;
+    color: #14FFEC;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+hr {
+    width: 60%;
+    margin: auto;
+    border-top: dotted 2px white;
+}
+
+#mainTitle {
+    color: #E84545;
+}
+
+.subTitle {
+    color: #EAEAEA;
+}
+
+.inPct {
+    background:  url('/src/pct.svg') right 1px center no-repeat;
+	padding-right: 18px;
+}   
+
+.centerRow {
+    width: 70%;
+    margin: auto;
+
+}
+
+.centerCol {
+    margin: auto;
+}
+
+.centerCol input{
+    text-align: center;
+    width: 55px;
+    background-color: #EAEAEA;
+}
+
+.centerCol input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+
+
+.inputArea input {
+    background-color: #323232;
+    border: 1px solid #EAEAEA;
+    color: #E84545;
+}
+
+.inputArea label{
+    color: #EAEAEA;
+}
+
+
+.inputArea {
+    width: 60%;
+    margin: 20px auto;
+
+}
+
+.inputArea input{
+    display: block;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+
+.inputArea button{
+    width: 90px;
+    height: 40px;
+    margin: 20px auto 10px auto;
+    border: none;
+    color: #E84545;
+}
+
+.inputArea button:hover{
+    border: 1px solid #E84545;
+    color: #EAEAEA;
+    background-color: transparent;
+}
+
+.inputArea button:active{
+    border: none;
+    color: #E84545;
+}
+
+
+td, th {
+    border: 1px solid #EAEAEA;
+}
+
+table {
+    width: 50%;
+    margin: 15px auto 15px auto;
+
+}
+
+.tableName {
+    background-color: #EAEAEA;
+    color: #E84545;
+}
+
+.tableData {
+    color: #EAEAEA;
+}
+
+#hiddenMsg {
+    margin-top: 20px;
+}
+
+footer a{ 
+    color: #E84545;
+}
+
+footer a:hover{ 
+    color: #EAEAEA;
+}
